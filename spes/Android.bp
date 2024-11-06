@@ -3391,7 +3391,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmialgoengine.so"],
-			shared_libs: ["libarcsoft_high_dynamic_range", "libarcsoft_low_light_hdr", "libarcsoft_hdr_detection", "liblog", "libutils", "libcutils", "libhardware", "libnativewindow", "libEGL", "libion", "libGLESv2", "libmpbase", "libarcsoft_beautyshot", "libalCFR", "libarcsoft_dualcam_refocus_image", "libarcsoft_portrait_lighting_c", "libarcsoft_portrait_lighting", "libmiai_supernight", "libarcsoft_supernight", "libwa_dof", "libwa_depth", "libwa_refocus", "libanc_dc_base", "libwa_widelens_undistort", "libHalSuperSensorServer", "libSuperSensor", "libSuperSensorCPU", "libmibokeh_712", "libmorpho_Lowlight", "libxml2_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libarcsoft_high_dynamic_range", "libarcsoft_low_light_hdr", "libarcsoft_hdr_detection", "liblog", "libutils", "libcutils", "libhardware", "libnativewindow", "libEGL", "libion", "libGLESv2", "libgrallocutils", "libmpbase", "libarcsoft_beautyshot", "libalCFR", "libarcsoft_dualcam_refocus_image", "libarcsoft_portrait_lighting_c", "libarcsoft_portrait_lighting", "libmiai_supernight", "libarcsoft_supernight", "libwa_dof", "libwa_depth", "libwa_refocus", "libanc_dc_base", "libwa_widelens_undistort", "libHalSuperSensorServer", "libSuperSensor", "libSuperSensorCPU", "libmibokeh_712", "libmorpho_Lowlight", "libxml2_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
