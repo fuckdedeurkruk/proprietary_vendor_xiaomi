@@ -1024,6 +1024,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/librfs_warp.so:$(TARGET_COPY_OUT_ODM)/lib64/librfs_warp.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libsfeShiftExtrapolation.so:$(TARGET_COPY_OUT_ODM)/lib64/libsfeShiftExtrapolation.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libssccalapi@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libssccalapi@2.0.so \
+    vendor/xiaomi/ishtar/proprietary/odm/lib64/libsubway_states_sensor.so:$(TARGET_COPY_OUT_ODM)/lib64/libsubway_states_sensor.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libsupermoon.so:$(TARGET_COPY_OUT_ODM)/lib64/libsupermoon.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_ODM)/lib64/libswregistrationalgo.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libtfestriping.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfestriping.so \
